@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ADRESY" directorySegmentName="seg_0" id="FB221CC6-8358-5D41-732F-D62728747B7A">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="stat" id="296048DF-4FAB-1BB3-C797-A1883904B13F">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="mesto" id="55AEA6BA-4A19-CCA8-578F-A2D7F5EC56DD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_adresy" id="6837F0E6-1066-7647-FF78-D03323EF135B">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="psc" id="85CD7324-276E-8332-BC64-C2FD8273A7BD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cislo_popisne" id="90477BDB-DCB1-1832-0341-49E0E1B3636A">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ulice" id="BCABBBA9-9403-F540-4EE4-39987DFE5334">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ADRESY__IDX" id="688D7E02-2A87-CCD8-4AAB-4BB8849441AB">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ADRESA_PK" id="EF8E8AF8-5F61-EA73-68A9-998FC88E76B2">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

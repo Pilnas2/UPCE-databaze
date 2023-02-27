@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="174953E1-8EAD-930F-D25B-30C68498A991" name="REGISTRACE_ZAVODU">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:34:50 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_registrace" id="631A7B17-E0A9-4355-644F-0CEE21262929">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:34:50 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="startovni_cislo" id="5EE3138B-562E-57FC-3980-DD3206BCC79C">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:34:50 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cas" id="DDDF2EB5-F2DA-B3B3-6671-6C7923F636EA">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:36:31 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cas_v_cili" id="8AC6ABD9-4685-D80E-B3D0-AC47EDC95203">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:37:14 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kategorie" id="54C83304-7350-8CE5-2D96-C2FCF49F06D2">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:38:08 UTC</createdTime>
+<generatorID>CFD69614-AE56-6DA7-8E8D-1312FBFC42BF</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<referedAttribute>198C451D-FBAD-72B0-13E2-F45193D3C574</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_osoba" id="E61AE9B4-A8ED-6404-7A31-3D589F67C398">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:40:44 UTC</createdTime>
+<generatorID>702E6F7D-A31E-10C5-980C-B3E70AB68890</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<referedAttribute>B6BD39F8-EFA5-F9E7-CC34-BC710818C60F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_zavod" id="599363F3-8660-A17A-7CAC-20D00756373D">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:44:37 UTC</createdTime>
+<generatorID>27162D80-A476-6289-6328-BDB9891F4D09</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<referedAttribute>E8F94BFE-3BF6-4ED9-4FE5-A951C99A0509</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEB206A8-E932-97A6-35B5-7887F65DC5AE" name="OSOBA PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:34:50 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>631A7B17-E0A9-4355-644F-0CEE21262929</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="kolobezkyDMD" id="3A3A6282-1131-1EB9-70CA-1099ABA1D621" version="3.5">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 09:54:45 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3A3A6282-1131-1EB9-70CA-1099ABA1D621</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="96CB6E48-312F-2D7E-DF0C-ADAD6C82C9D1">
+<designStoragePath>C:\Users\marti\OneDrive - Univerzita Pardubice\Dokumenty</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

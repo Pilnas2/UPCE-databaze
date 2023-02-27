@@ -1,0 +1,143 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F354EBD9-9190-0B1D-123E-EB9C7D3E2601" name="ZAVODY">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>9FBEFFBD-1705-D6FE-6A81-281A79E32445</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<ordsAlias>zavod</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_zavod" id="D1A467A6-C647-C04E-0930-45A44EB9FE71">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primární klíč id závodu]]></commentInRDBMS>
+<generatorID>E8F94BFE-3BF6-4ED9-4FE5-A951C99A0509</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="5B66CBD1-2E38-D220-DCE2-D1087E002D7E">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[název daného závodu]]></commentInRDBMS>
+<generatorID>BF38DD48-F2AB-D029-158F-FD4833CBDD03</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum" id="611CAD62-2349-FC69-A553-6D69C21917AD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[datum konání závodu]]></commentInRDBMS>
+<generatorID>33034A01-B631-04C7-D45D-6C551E4D59E2</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="delka" id="A4104E85-65E1-1F2B-F8F7-9333A4496118">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[jak dlouhý je závod]]></commentInRDBMS>
+<generatorID>D368DB0C-EECC-C9BF-244D-F45BF1082AA9</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADRESA_id_adresy" id="3B696BC4-9237-6F3B-A025-EC1C02BCBF84">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[cizí klíč z adresy]]></commentInRDBMS>
+<generatorID>B1E4DC67-2E2F-9700-3B89-F5431A487D89</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8B0AD77-A9C8-5520-261B-95C3FEAC8C95" referredColumn="6837F0E6-1066-7647-FF78-D03323EF135B"/>
+</associations>
+</Column>
+<Column name="TYP_ZAVODU_id_zavodu" id="A5A5A904-F1FD-E66E-51BE-FAD557108706">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[cizí klíč z tabulky typy_zavodu]]></commentInRDBMS>
+<generatorID>6B168A98-D97C-8CF2-C29E-A0A81BC92581</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="15A26ACB-282F-64F9-A519-2B9FC9DE5458" referredColumn="FC708674-3398-6A9F-C113-6F7734FE934D"/>
+</associations>
+</Column>
+<Column name="misto" id="7B56717A-C5AD-50F7-53C2-A77CCC201876">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-27 12:02:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[místo konání závodu]]></commentInRDBMS>
+<generatorID>F46F1354-0DCE-3E83-343A-0077512B870F</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="624746DC-44DD-DE6B-90FE-EC772216CA50" name="ZAVOD_PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>80404EAA-F9F4-45EF-7128-A98AE64AD1C4</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1A467A6-C647-C04E-0930-45A44EB9FE71"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D46728E5-A6B0-14DD-BF2D-870B19AC0277" name="ZAVOD_ADRESA_FK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>FA783E6F-DBA2-E24F-39EA-AC52DFACCBEC</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B696BC4-9237-6F3B-A025-EC1C02BCBF84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65B0FE99-1C37-1CBE-8255-2253BDE53CF5" name="ZAVOD_TYP_ZAVODU_FK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>5F214493-9975-21B5-0A03-5B77DCA98C04</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5A5A904-F1FD-E66E-51BE-FAD557108706"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="ZAVODNICI" directorySegmentName="seg_0" id="9348B6A3-CB2E-594C-E94F-CF10760431F4">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ADRESA_id_adresy" id="1668ECFE-58AC-11C9-DA17-628249E2934A">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_osoba" id="BC505BD1-5BB8-3D3E-4B79-39639D51CADE">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="pohlavi" id="C9A6C091-9D7C-0C41-3B73-E1CD16381ABB">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="uroven" id="ED668D59-A2EA-64DE-970F-6156DA9002C7">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="startovni_cislo" id="F5559CA9-5E1B-7070-5391-50E0EB12D93B">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ZAVODNICI__IDX" id="E74A9033-B146-3586-31C7-5285E6C7873E">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ZAVODNIK_OSOBA_FK" id="291D0668-7D2F-3A32-4E17-1842FBA59E0C">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ZAVODNIK_ADRESA_FK" id="5F900A40-DB68-C408-6548-E7853934EA3B">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ZAVODNIK_PK" id="B959895F-CA76-99D5-3197-0BD365A45BE3">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

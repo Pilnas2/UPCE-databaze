@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8BCCCD56-3562-F5FC-5180-9C3F14111F13" name="TYPY_KOLOBEZEK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>932E3115-9240-5F79-6539-F20EC26D5AF9</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<ordsAlias>typ_kolobezky</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_typ" id="2DA6FDA1-8F8E-1FA7-3C7E-7AD97DAC6CFB">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[primární klíč typy_kolobezek]]></commentInRDBMS>
+<generatorID>83E9301F-74A3-5CFF-16BE-60927F321A48</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="EC137513-D35D-A9CE-423C-40AE248D5DC6">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[název typu koloběžky]]></commentInRDBMS>
+<generatorID>22245AC3-AD47-84F2-9EA4-CDC16C927A2D</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="max_rychlost" id="A00479E1-E77D-59CB-C1CF-EEFDE2873416">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[maximáolní rychlost koloběžky]]></commentInRDBMS>
+<generatorID>E9A9BF49-C764-4912-5F11-B67EC8CE1123</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="brzdy" id="9E3EB557-AB3C-F284-D589-4510209F1FEA">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[typ brzdy koloběžky]]></commentInRDBMS>
+<generatorID>F471DDAE-C399-A55D-3794-56D4922BBDAD</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D23D66D-7104-2848-30BA-E6C7029CA8FC" name="TYP_KOLOBEZKY_PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>D1B1267A-CE55-ABE7-62C7-2C82EC91C781</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DA6FDA1-8F8E-1FA7-3C7E-7AD97DAC6CFB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

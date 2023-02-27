@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F873BF73-8EA7-1FA5-4D61-279772B62A1A" name="PORADATEL-ZAVOD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<ordsAlias>poradatel_zavod</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PORADATEL_id_osoba" id="2E84F3B3-D4DF-95FE-414A-540505F32E27">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="435F24A6-C396-552C-1F61-3ACD9582CE9C" referredColumn="A35BB8A7-958E-5FF0-76BF-15BA52DA88A7"/>
+</associations>
+</Column>
+<Column name="ZAVOD_id_zavod" id="D9B44814-42F2-0ADA-6160-BED2396DCFEE">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7D20224-A1C8-A6BE-D8B2-16C6F1A42ACB" referredColumn="D1A467A6-C647-C04E-0930-45A44EB9FE71"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7E134852-1A94-7F90-BD04-14E4AA40731F" name="PORADATEL-ZAVOD_PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E84F3B3-D4DF-95FE-414A-540505F32E27"/>
+<colUsage columnID="D9B44814-42F2-0ADA-6160-BED2396DCFEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4C5DAE5-5FFE-9391-DACA-10159BE83C05" name="PORADATEL-ZAVOD_PORADATEL_FK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>247FBA81-2797-BE89-B9AE-0F87AE71C5F4</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E84F3B3-D4DF-95FE-414A-540505F32E27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C502DE17-FC71-EA7B-6A68-D1C779D74F99" name="PORADATEL-ZAVOD_ZAVOD_FK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>247FBA81-2797-BE89-B9AE-0F87AE71C5F4</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9B44814-42F2-0ADA-6160-BED2396DCFEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30CFA939-D322-DA0B-A02D-C219361540D5" name="TYPY_KATEGORII">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>10B4440E-03C9-69C5-4D67-FA2DFA84EE03</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<ordsAlias>typ_kategorie</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kategorie" id="C235B7CE-2D6A-12B8-592C-3B9F54E66BAA">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[primární klíč kategorie závodu]]></commentInRDBMS>
+<generatorID>198C451D-FBAD-72B0-13E2-F45193D3C574</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nazev" id="59F3661A-9B7E-3542-5434-772566827C5D">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[název kategorie závodu]]></commentInRDBMS>
+<generatorID>419D2378-E936-041C-F361-18047F782842</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AEBF10C-D956-7D8A-B699-A79A43E673C6" name="TYP_KATEGORIE_PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>A97E956D-335E-798F-A45A-4A63F2C28CF9</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C235B7CE-2D6A-12B8-592C-3B9F54E66BAA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

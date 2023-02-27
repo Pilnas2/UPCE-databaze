@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28A87DF6-CFEE-3831-B5AA-14BCC4E782ED" name="PORADATELE">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>7B25B9EB-2C80-AE45-C007-9D8BF8675ADF</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<ordsAlias>poradatel</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_osoba" id="A35BB8A7-958E-5FF0-76BF-15BA52DA88A7">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[primární klíč id pořadatele
+a zároveň cizí klíč z tabulky osoby]]></commentInRDBMS>
+<generatorID>B6BD39F8-EFA5-F9E7-CC34-BC710818C60F</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7C7B8A7B-67E6-4F05-6C08-833E6EDB53D1" referredColumn="E3954B22-B5A5-6BAA-4F9B-423FA32DC31A"/>
+</associations>
+</Column>
+<Column name="pozice" id="78862797-12D0-9DBD-61F9-C78260D81F8E">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[pozice ve které pořadatel pracuje]]></commentInRDBMS>
+<generatorID>8EABD6DF-D83C-B05E-5A7B-F047DFC26E5F</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A30478D-8C9A-626E-693C-1BA6255758BD" name="PORADATEL_PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>ACDA497E-BEC5-F411-9624-B1D5715EDBB5</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A35BB8A7-958E-5FF0-76BF-15BA52DA88A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8464BEFE-E238-4B69-2BBE-4355AEF32435" name="PORADATEL_OSOBA_FK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>380863F5-7D5C-41D0-06F0-DA2549CEB8F0</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A35BB8A7-958E-5FF0-76BF-15BA52DA88A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

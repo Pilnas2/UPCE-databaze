@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="10B4440E-03C9-69C5-4D67-FA2DFA84EE03" name="TYP_KATEGORIE">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:28:47 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_kategorie" id="198C451D-FBAD-72B0-13E2-F45193D3C574">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:28:47 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nazev" id="419D2378-E936-041C-F361-18047F782842">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:28:47 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A97E956D-335E-798F-A45A-4A63F2C28CF9" name="TYP_ZAVODU PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:28:47 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>198C451D-FBAD-72B0-13E2-F45193D3C574</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

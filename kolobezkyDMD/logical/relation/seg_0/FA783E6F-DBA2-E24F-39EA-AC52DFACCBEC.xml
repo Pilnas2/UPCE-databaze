@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ADRESA-ZAVOD" directorySegmentName="seg_0" id="FA783E6F-DBA2-E24F-39EA-AC52DFACCBEC">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 13:06:24 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<sourcePk>0FCF445E-921C-173D-B974-4E9F0045F5AB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>je místem konání</nameOnSource>
+<nameOnTarget>koná se v</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4BAB5B26-98D7-95A3-EBBF-E35E9937F45A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FBEFFBD-1705-D6FE-6A81-281A79E32445</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

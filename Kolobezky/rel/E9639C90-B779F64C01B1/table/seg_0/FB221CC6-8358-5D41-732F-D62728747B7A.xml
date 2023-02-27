@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FB221CC6-8358-5D41-732F-D62728747B7A" name="ADRESY">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>4BAB5B26-98D7-95A3-EBBF-E35E9937F45A</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<ordsAlias>adresa</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_adresy" id="6837F0E6-1066-7647-FF78-D03323EF135B">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[primární klíč id adresy osoby]]></commentInRDBMS>
+<generatorID>103385BC-64B8-B0DF-C30B-B0B8D6DBC5B6</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cislo_popisne" id="90477BDB-DCB1-1832-0341-49E0E1B3636A">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[číslo popisné osoby]]></commentInRDBMS>
+<generatorID>155B0898-9EEC-B9C2-5C92-31CFAAEDC736</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ulice" id="BCABBBA9-9403-F540-4EE4-39987DFE5334">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[ulice osoby]]></commentInRDBMS>
+<generatorID>F4AEF826-2616-B154-E90D-3E3B2456AB8C</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesto" id="55AEA6BA-4A19-CCA8-578F-A2D7F5EC56DD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[město, kde bydlí osoba]]></commentInRDBMS>
+<generatorID>1CB0D3BD-CAB5-07B7-5238-7AB10F846F3F</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="psc" id="85CD7324-276E-8332-BC64-C2FD8273A7BD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[poštovní směrovací čislo osoby]]></commentInRDBMS>
+<generatorID>6A208863-0953-642E-60F6-CC14D45B584E</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stat" id="296048DF-4FAB-1BB3-C797-A1883904B13F">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[stát, kde osoba bydlí]]></commentInRDBMS>
+<generatorID>7B2DA6A2-F370-77A3-8197-45610DE0820F</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EF8E8AF8-5F61-EA73-68A9-998FC88E76B2" name="ADRESA_PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>0FCF445E-921C-173D-B974-4E9F0045F5AB</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6837F0E6-1066-7647-FF78-D03323EF135B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="688D7E02-2A87-CCD8-4AAB-4BB8849441AB" name="ADRESY__IDX">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-28 17:08:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6837F0E6-1066-7647-FF78-D03323EF135B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

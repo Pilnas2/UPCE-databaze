@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="VYSLEDKY" directorySegmentName="seg_0" id="50EB0564-5995-E315-67B2-91CCFB9ED0A9">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ZAVOD_id_zavod" id="67756D49-A595-F6FF-6775-2BC1FFC3BDB5">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_ZAV_id_registrace" id="AAB426B1-76A6-C6B3-A0D1-04B253E490AF">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cena" id="E03864DB-9AAF-D1EF-4A26-CFA1003116BF">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="poradi" id="F11665AE-9752-5F8F-45BB-AC2664A998CD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VYSLEDEK_REGISTRACE_ZAVODU_FK" id="083B5F43-D618-C9B7-473C-14B722968A66">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VYSLEDEK_ZAVOD_FK" id="3001E3B6-B6A8-53B5-02D9-11E1F09864BD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-30 10:20:11 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev12c>

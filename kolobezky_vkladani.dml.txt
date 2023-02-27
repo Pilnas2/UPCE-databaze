@@ -1,0 +1,54 @@
+INSERT INTO osoby (id_osoba, jmeno, prijmeni, datum_narozeni, telefonni_cislo, typ_osoby, vek) VALUES (1, 'Jan', 'Novák', to_date('1970-01-01', 'YYYY-MM-DD'), '123456789', 'Z', 51);
+INSERT INTO osoby (id_osoba, jmeno, prijmeni, datum_narozeni, telefonni_cislo, typ_osoby, vek) VALUES (2, 'Petr', 'Svoboda', to_date('1985-03-15', 'YYYY-MM-DD'), '987654321', 'P', 37);
+INSERT INTO osoby (id_osoba, jmeno, prijmeni, datum_narozeni, telefonni_cislo, typ_osoby, vek) VALUES (3, 'Kateřina', 'Kovářová', to_date('1995-07-20', 'YYYY-MM-DD'), '123123123', 'Z', 27);
+INSERT INTO osoby (id_osoba, jmeno, prijmeni, datum_narozeni, telefonni_cislo, typ_osoby, vek) VALUES (4, 'Lucie', 'Nováková', to_date('1980-05-10', 'YYYY-MM-DD'), '111111111', 'Z', 42);
+INSERT INTO osoby (id_osoba, jmeno, prijmeni, datum_narozeni, telefonni_cislo, typ_osoby, vek) VALUES (5, 'Jiří', 'Černý', to_date('1990-09-25', 'YYYY-MM-DD'), '222222222', 'Z', 32);
+INSERT INTO osoby (id_osoba, jmeno, prijmeni, datum_narozeni, telefonni_cislo, typ_osoby, vek) VALUES (6, 'Veronika', 'Dvořáková', to_date('2000-01-01', 'YYYY-MM-DD'), '333333333', 'P', 22);
+
+INSERT INTO registrace_zavodu (id_registrace, startovni_cislo, cas, cas_v_cili, TYP_KAT_ID_KATEGORIE, OSOBA_ID_OSOBA, ZAVOD_ID_ZAVOD) VALUES (1, 1, 45, 12, 1, 1, 1);
+INSERT INTO registrace_zavodu (id_registrace, startovni_cislo, cas, cas_v_cili, TYP_KAT_ID_KATEGORIE, OSOBA_ID_OSOBA, ZAVOD_ID_ZAVOD) VALUES (2, 2, 45, 12, 1, 2, 1);
+INSERT INTO registrace_zavodu (id_registrace, startovni_cislo, cas, cas_v_cili, TYP_KAT_ID_KATEGORIE, OSOBA_ID_OSOBA, ZAVOD_ID_ZAVOD) VALUES (3, 3, 23, 01, 2, 4, 2);
+
+INSERT INTO adresy (id_adresy, cislo_popisne, ulice, mesto, psc, stat) VALUES (1, 1452, 'Hlavní', 'Praha', '11000', 'Česká republika');
+INSERT INTO adresy (id_adresy, cislo_popisne, ulice, mesto, psc, stat) VALUES (2, 488, 'Náměstí', 'Brno', '60000', 'Česká republika');
+INSERT INTO adresy (id_adresy, cislo_popisne, ulice, mesto, psc, stat) VALUES (3, 5, 'Krátká', 'Plzeň', '30100', 'Česká republika');
+INSERT INTO adresy (id_adresy, cislo_popisne, ulice, mesto, psc, stat) VALUES (4, 363, 'Dlouhá', 'Ostrava', '70000', 'Česká republika');
+INSERT INTO adresy (id_adresy, cislo_popisne, ulice, mesto, psc, stat) VALUES (5, 48, 'Smetanova', 'Olomouc', '77777', 'Česká republika');
+
+INSERT INTO zavody (id_zavod, nazev, datum, misto, delka, ADRESA_id_adresy, TYP_ZAVODU_id_zavodu ) VALUES (1, 'Maraton Praha', to_date('2022-05-01', 'YYYY-MM-DD'), 'Praha', '42', '1', '1');
+INSERT INTO zavody (id_zavod, nazev, datum, misto, delka, ADRESA_id_adresy, TYP_ZAVODU_id_zavodu) VALUES (2, 'Půlmaraton Brno', to_date('2022-09-15', 'YYYY-MM-DD'), 'Brno', 21, 3, 2);
+
+INSERT INTO typy_zavodu (id_zavod, nazev, odmena) VALUES (1, 'Maraton', 100');
+INSERT INTO typy_zavodu (id_zavod, nazev, odmena) VALUES (2, 'Půlmaraton', 50);
+
+INSERT INTO vysledky (poradi, cena, ZAVOD_ID_ZAVOD, REG_ZAV_ID_REGISTRACE) VALUES (1, 100, 1, 1 );
+INSERT INTO vysledky (poradi, cena, ZAVOD_ID_ZAVOD, REG_ZAV_ID_REGISTRACE) VALUES (2, 50, 2, 1);
+INSERT INTO vysledky (poradi, cena, ZAVOD_ID_ZAVOD, REG_ZAV_ID_REGISTRACE) VALUES (3, 30, 2, 1);
+
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (1, 'Skateboard', 20, 'ruční brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (2, 'Longboard', 25, 'ruční brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (3, 'Koloběžka', 20, 'ruční brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (4, 'Elektrická koloběžka', 25, 'ruční brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (5, 'Elektrokolo', 30, 'kotoučové brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (6, 'Skútr', 45, 'kotoučové brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (7, 'Motorka', 110, 'kotoučové brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (8, 'Čtyřkolka', 70, 'kotoučové brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (9, 'Autíčko', 20, 'kotoučové brzdy');
+INSERT INTO typy_kolobezek (id_typ, nazev, max_rychlost, brzdy) VALUES (10, 'Traktor', 40, 'kotoučové brzdy');
+
+INSERT INTO typy_kategorii (id_kategorie, nazev) VALUES (1, 'Muži');
+INSERT INTO typy_kategorii (id_kategorie, nazev) VALUES (2, 'Ženy');
+
+INSERT INTO poradatele (id_osoba, pozice) VALUES (2, 'reditel' );
+INSERT INTO poradatele (id_osoba, pozice) VALUES (6, 'rozhodci' );
+
+
+
+create or replace TRIGGER osoby_id_trig
+  BEFORE INSERT ON osoby
+  FOR EACH ROW
+BEGIN
+  SELECT osoby_id_seq.NEXTVAL INTO :new.id_osoba FROM dual;
+END;
+
+

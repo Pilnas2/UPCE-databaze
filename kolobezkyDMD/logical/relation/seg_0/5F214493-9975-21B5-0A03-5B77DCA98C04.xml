@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TYP_ZAVODU-ZAVOD" directorySegmentName="seg_0" id="5F214493-9975-21B5-0A03-5B77DCA98C04">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 13:15:03 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<sourcePk>40BA2A50-CE64-A903-6B83-2656A813F3BB</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>je typem</nameOnSource>
+<nameOnTarget>obsahuje</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65C180F4-4EF4-7F68-C5F5-1AFB94579F8C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9FBEFFBD-1705-D6FE-6A81-281A79E32445</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

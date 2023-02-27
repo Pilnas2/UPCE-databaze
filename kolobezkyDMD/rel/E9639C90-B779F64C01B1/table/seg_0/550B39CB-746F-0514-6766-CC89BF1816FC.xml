@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="550B39CB-746F-0514-6766-CC89BF1816FC" name="OSOBY">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>DA50F4E4-26FF-1E9F-0099-0F3031BB59E1</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<ordsAlias>osoba</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_osoba" id="E3954B22-B5A5-6BAA-4F9B-423FA32DC31A">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[Primární klíč osoby]]></commentInRDBMS>
+<generatorID>B6BD39F8-EFA5-F9E7-CC34-BC710818C60F</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jmeno" id="BFE6521C-6016-BE2A-3247-16B46EC63C68">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[jméno osoby]]></commentInRDBMS>
+<generatorID>49FDF04B-C51D-18C2-4315-DAAC8BCCC015</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prijmeni" id="175DF42C-0EF9-E63E-041D-999ABCE6E5FE">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[příjmeni osoby]]></commentInRDBMS>
+<generatorID>B4F111F8-7E73-25D0-4AD7-9FA711D16D9A</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="datum_narozeni" id="8B9363C1-C121-B1C9-BDE2-E11C5C8B08F1">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[datum narození osoby]]></commentInRDBMS>
+<generatorID>DB824728-0EF8-0B3C-12C4-C667FCB2601D</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefonni_cislo" id="F274CF6C-03A3-DAEA-5248-BA0A11B9DA1F">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[telefonní číslo osoby]]></commentInRDBMS>
+<generatorID>46EE448E-FC9B-42F6-711A-23172A021507</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="typ_osoby" id="8E439478-F601-1699-F6D6-9F9E9C565BAD">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 17:05:37 UTC</createdTime>
+<commentInRDBMS><![CDATA[tento atribut určuje typ osoby]]></commentInRDBMS>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="P" description="poradatel"/>
+<valueDef value="Z" description="zavodnik"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isDiscriminatorColumn>true</isDiscriminatorColumn>
+</Column>
+<Column name="vek" id="0A1795E9-FA82-3A3C-3751-6BFA983EC636">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-27 12:02:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[atribut věk osoby]]></commentInRDBMS>
+<generatorID>803541EB-1DD5-69E0-8BE4-867033312AC6</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94B6D626-BD97-2739-CA2D-E11DF801AFA7" name="OSOBA_PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>ACDA497E-BEC5-F411-9624-B1D5715EDBB5</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3954B22-B5A5-6BAA-4F9B-423FA32DC31A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="851E452A-1AA5-9A15-FA17-D5DD8A52A49D" name="TYP_KOLOBAZKY-TYP_KATEGORIE">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<ordsAlias>typ_kolobazky_typ_kategorie</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="TYP_KOLOBEZKY_id_typ" id="0B2B4BA9-B2C1-78E1-3216-8ABC57007460">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C5B3D1A-F9AF-AA57-7738-0AB1626AC6A1" referredColumn="2DA6FDA1-8F8E-1FA7-3C7E-7AD97DAC6CFB"/>
+</associations>
+</Column>
+<Column name="TYP_KATEGORIE_id_kategorie" id="D3D3FC0A-B33D-B40D-821D-23A4324D28A6">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3FB27C98-DE69-A7B5-6EF0-CED252521A81" referredColumn="C235B7CE-2D6A-12B8-592C-3B9F54E66BAA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79E346CD-1781-16E7-CB6D-9B05EE462F4B" name="TYP_KOLOBAZKY-TYP_KATEGORIE_PK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2B4BA9-B2C1-78E1-3216-8ABC57007460"/>
+<colUsage columnID="D3D3FC0A-B33D-B40D-821D-23A4324D28A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE7D1D6B-22FA-16C8-C229-7879E56B3B55" name="TK-TYP_KATEGORIE_TK_FKv2">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>B62FE371-294B-E416-6CBD-8F49C45B359D</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B2B4BA9-B2C1-78E1-3216-8ABC57007460"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23FD7268-848A-31B4-C765-BBF136730060" name="TK-TYP_KATEGORIE_TK_FK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>B62FE371-294B-E416-6CBD-8F49C45B359D</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D3D3FC0A-B33D-B40D-821D-23A4324D28A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

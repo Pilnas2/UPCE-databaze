@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TYP_KOLOBAZKY-TYP_KATEGORIE" directorySegmentName="seg_0" id="B62FE371-294B-E416-6CBD-8F49C45B359D">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-25 14:32:44 UTC</createdTime>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<engineerTo>
+<item key="E9639C90-2DA0-B41E-06E7-B779F64C01B1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>je určeno</nameOnSource>
+<nameOnTarget>určuje</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>932E3115-9240-5F79-6539-F20EC26D5AF9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>10B4440E-03C9-69C5-4D67-FA2DFA84EE03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

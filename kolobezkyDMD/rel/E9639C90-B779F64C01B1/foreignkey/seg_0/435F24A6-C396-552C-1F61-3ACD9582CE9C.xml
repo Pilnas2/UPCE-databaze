@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="435F24A6-C396-552C-1F61-3ACD9582CE9C" containerWithKeyObject="F873BF73-8EA7-1FA5-4D61-279772B62A1A" localFKIndex="C4C5DAE5-5FFE-9391-DACA-10159BE83C05" name="PORADATEL-ZAVOD_PORADATEL_FK">
+<createdBy>marti</createdBy>
+<createdTime>2022-12-26 16:03:18 UTC</createdTime>
+<generatorID>247FBA81-2797-BE89-B9AE-0F87AE71C5F4</generatorID>
+<ownerDesignName>Kolobezky</ownerDesignName>
+<referredTableLongName>PORADATELE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28A87DF6-CFEE-3831-B5AA-14BCC4E782ED</referredTableID>
+<keyObject>6A30478D-8C9A-626E-693C-1BA6255758BD</keyObject>
+<referredKeyID>6A30478D-8C9A-626E-693C-1BA6255758BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_osoba</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
